@@ -8,7 +8,7 @@ def index():
 
 @app.route("/logo.png")
 def logo():
-    return Flask.send_static_file (filename= "logo.png")
+    return Flask.send_static_file("logo.png")
 
 print('Starting Flask!')
 
